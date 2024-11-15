@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.first{
+    color: orangered;
+}
+.head{
+    background-color:rgb(26, 24, 24);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: sticky;top:0;
+}
+.box{
+    color: azure;
+}
+.box:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    color:rgb(255, 89, 0);
+}
+
+.name{
+    font-size: larger;
+    font-weight: bolder;
+    margin: 30px;
+    color: azure;
+}
+.name:hover{
+    filter:drop-shadow(1px 1px 20px rgb(255, 38, 0));
+}
+.option{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.button{
+    width: 80px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10%;
+}
+.button:hover{
+    transition-timing-function: linear;
+    transition-duration: 3sec;
+    cursor: pointer;
+    background-color: orangered;
+}
+.display{
+    margin: 200px;
+    display: inline-block;
+}
+.no{
+    font-size: larger;
+    font-weight: bolder;
+}
+.hi{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.colour{
+    color: orangered;
+}
+.sde{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.explain{
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.last{
+    margin-right: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 60px;
+    border-radius: 10%;
+}
+.last2{
+    background-color: orangered;
+    color: azure;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+}
+.last,.last2:hover{
+    cursor: pointer;
+}
+.pho{
+    height: 500px;
+    width: 500px;
+    border-radius: 90%;
+    margin: 30px;
+}
+.mouth{
+    display: flex;
+}
+.stick{
+    background-color: rgb(41, 37, 37);
+    display: flex;
+}
+.scan{
+    filter: drop-shadow(1px 1px 20px rgb(255, 38, 0));
+}
+.box2{
+    color: white;
+}
+.box3{
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.box4{
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size:xx-large;
+    font-weight:bolder;
+}
+.suraj{
+    color: orangered;
+}
+.mind{
+    margin-left: 300px;
+    margin-top: 20px;
+    color: azure;
+}
+.sumit{
+margin-left: 300px;
+margin-top: 20px;
+height: 35px;
+border-radius: 10%;
+padding: 5px;
+}
+.sumit:hover{
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    cursor: pointer;
+    background-color: orangered;
+}
+.subhi{
+    display: flex;
+    justify-content: center;
+}
+.mom{
+    margin-top: 20px;
+   margin-left: 600px;
+   height: 30px;
+   width: 390px;
+   background-color: aliceblue;
+}
+.filler{
+    height: 200px;
+    width: 600px;
+}
+.papa{
+    padding: 10px;
+    height: 100px;
+}
+.send{
+    display: flex;
+    margin-left: 750px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.send:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+.copy{
+    margin-top:20px;
+    height: 150px;
+    background-color: black;
+}
+.filo{
+    margin-left: 650px;
+    display:flex;
+}
+.lifo{
+    margin: 20px;
+}
+.lifo:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px orangered;   
+}
+.pilo{
+    margin-left: 600px;
+    margin-bottom: 15px;
+    display: flex;
+
+}
+.fir{
+    margin-left:20px;
+}
+.fir:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 10px orangered;
+}
+.rule{
+    display:inline-block;
+    color: white;
+}
+.cp{
+    color: white;
+    margin-left: 650px;
+}
+@media(max-width:800px){
+    .option{
+        display: inline;
+    }
+    .button{
+        display: inline;
+    }
+    .pho{
+        display: inline;
+    }
+}
